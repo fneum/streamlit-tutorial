@@ -1,7 +1,3 @@
-streamlit>=1.16
+streamlit>=1.18
 pandas
-geopandas
-hvplot
-holoviews
-geoviews
-bokeh<=2.4.1
+plotly
