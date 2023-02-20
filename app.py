@@ -32,6 +32,8 @@ with st.sidebar:
 
 st.warning(":building_construction: Sorry, this page is still under construction")
 
+hover_data = ['Name', 'Fueltype', 'Technology', "Capacity", 'Efficiency', 'DateIn']
+
 df = ppl.query("Fueltype == @tech and DateIn >= @start and DateIn <= @end")
 
 if not df.empty:
@@ -43,7 +45,8 @@ if not df.empty:
         color="DateIn",
         size="Capacity",
         zoom=2,
-        height=700
+        height=700,
+        hover_data=hover_data,
     )
 
     st.plotly_chart(fig, use_container_width=True)
