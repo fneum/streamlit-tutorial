@@ -47,6 +47,7 @@ if not df.empty:
         zoom=2,
         height=700,
         hover_data=hover_data,
+        range_color=(1900, 2022),
     )
 
     st.plotly_chart(fig, use_container_width=True)
