@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Fabian Neumann (TU Berlin), 2023
+#
+# SPDX-License-Identifier: MIT
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
