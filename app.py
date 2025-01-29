@@ -41,11 +41,11 @@ hover_data = ['Name', 'Fueltype', 'Technology', "Capacity", 'Efficiency', 'DateI
 df = ppl.query("Fueltype == @tech and DateIn >= @start and DateIn <= @end")
 
 if not df.empty:
-    fig = px.scatter_mapbox(
+    fig = px.scatter_map(
         df,
         lat="lat",
         lon="lon",
-        mapbox_style="carto-positron",
+        map_style="carto-positron",
         color="DateIn",
         size="Capacity",
         zoom=2,
