@@ -56,3 +56,12 @@ https://ppm-dash.streamlit.app/
 ├── LICENSE
 └── README.md
 ```
+
+
+## Learn More about Streamlit
+
+To deepen your understanding of Streamlit, check out these resources:
+
+- [Streamlit Official Documentation](https://docs.streamlit.io/)
+- [Streamlit Tutorials on YouTube](https://youtube.com/playlist?list=PLgkF0qak9G4-TC9_tKW1V4GRcJ9cdmnlx&si=qbE4JUDV3iS8ksp1)
+- [Streamlit Youtube channel for more](https://www.youtube.com/@streamlitofficial)
